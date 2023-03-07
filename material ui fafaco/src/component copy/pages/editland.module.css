@@ -1,0 +1,43 @@
+.login {
+    width: 100%;
+    margin-top: -60%;
+    /* margin: auto; */
+    
+}
+.login form {
+    width : 500px;
+    margin:auto;
+}
+.login input, select{
+    width: 100%;
+    padding: 8px 10px;
+    margin: 8px 0;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+} 
+/* .submit input{
+    width: 20%;
+} */
+.login input[type=text]:focus, input[type=number]:focus, select[type=text]:focus {
+   
+    border: 2px solid green;
+    outline-width: 0px;
+}
+
+
+/* .states input{
+    border-color: black;
+    width: 5rem;
+} */
+.login button{
+    width: 30%;
+    padding: 8px 10px;
+    display: inline-block;
+    margin: 8px 0;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: green;
+}

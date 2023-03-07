@@ -1,0 +1,46 @@
+.login {
+    width: 100%;
+    /* border: solid; */
+}
+.login-form {
+    width : 500px;
+    /* border: solid; */
+    margin:auto;
+    /* margin-top:15%; */
+}
+.login-form input{
+    width: 100%;
+    padding: 8px 10px;
+    margin: 8px 0;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+} 
+.login-form button{
+    width: 100%;
+    padding: 8px 10px;
+    margin: 8px 0;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: green;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.login-form label{
+    font-family: 'Times New Roman', Times, serif;
+}
+.login-form input[type = text]:focus{
+   border:2px solid green;
+   outline-width: 0;
+}
+.login-form input[type = password]:focus{
+    border:2px solid green;
+    outline-width: 0;
+ }
+ .error{
+    color:red;
+    text-align: left;
+    font-size: 12px;
+}

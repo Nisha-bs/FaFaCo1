@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+.box {
+    width: 100%;
+    margin-top: -64%;
+    /* border: solid; */
+}
+.box form {
+    width : 500px;
+    /* border: solid; */
+    margin:auto;
+    margin-top: 5%;
+}
+.box form h1 {
+    margin: 0px 150px 5px 150px;
+    color: green;
+    /* font-size: 20px; */
+    font-family: 'Times New Roman', Times, serif;
+}
+.box form p {
+    color: red;
+    font-size: medium;
+    /* margin-right: 10px; */
+    margin-left: 150px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box form input {
+    width: 100%;
+    padding: 8px 10px;
+    margin: 8px 0;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.box form input:focus {
+    border: 2px solid green;
+    outline-width: 0;
+}
+.box form select {
+    width: 100%;
+    padding: 8px 10px;
+    margin: 8px 0;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.box form select:focus {
+    border: 2px solid green;
+    outline-width: 0;
+}
+.box form button {
+    width: 100%;
+    padding: 8px 10px;
+    margin: 8px 0;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: green;
+}
+.box form h4 {
+    /* margin: 0px 180px 5px 180px; */
+    color: black;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box div {
+    width: 100%;
+    border: solid;
+}

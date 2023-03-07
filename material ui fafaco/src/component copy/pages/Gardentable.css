@@ -1,0 +1,60 @@
+.garden {
+    width: 100%;
+    margin-top: -60%
+}
+.garden h1{
+    margin-left: 40%;
+    color: green;
+    font: caption;
+}
+.garden table {
+    width: 85%;
+    border-collapse: collapse;
+    margin-left: 7%;
+    border: 2px solid green;
+
+}
+.garden button {
+    background-color:green;
+    border: none;
+    border-radius: 3px;
+    margin: 5px;
+    width: 6rem;
+    height: 2rem;
+    color: white;
+    font-weight: 700;
+    font-size: medium;
+}
+.garden tr:nth-child(odd){
+    background-color:#f9f9f9;
+    }
+.garden tr:hover {
+        background-color:rgb(204, 252, 204);
+    }
+.garden tr {
+        text-align: center;
+        height: 2px;
+        padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    }
+.garden th {
+    /* background-color: green; */
+    color: green;
+    text-align: center;
+    border-color: green;
+    background-color: white;
+    border-collapse: collapse;
+    border: 2px solid green;
+
+ }
+ .login h1{
+    text-align: center;
+    color: green;
+    /* font-size: 20px; */
+}
+.gardencontainer {
+    margin: auto;
+    width: 100%;
+}

@@ -1,0 +1,103 @@
+
+.box {
+    width: 100%;
+    /* margin-top: -60%; */
+    /* border: solid; */
+}
+.box form {
+    width : 500px;
+    /* border: solid; */
+    margin:auto;
+    /* margin-top: 10%; */
+}
+.box  h1 {
+    text-align: center;
+    color: green;
+    /* font-size: 20px; */
+    font-family: 'Times New Roman', Times, serif;
+}
+.box form p {
+    color: red;
+    font-size: medium;
+    /* margin-right: 10px; */
+    margin-left: 150px;
+}
+.Addname input{
+    width: 45%;
+    padding: 8px 10px;
+    margin: 8px 5px 0px 15px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.Addname input:focus {
+    border: 2px solid green;
+    outline-width: 0;
+}
+/* .Addname label{
+    color: red;
+    font-size: small;
+} */
+.Addfathername input{
+    width: 94%;
+    padding: 8px 10px;
+    margin: 8px 5px 0px 15px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.Addfathername input:focus {
+    border: 2px solid green;
+    outline-width: 0;
+}
+.Addname select{
+    width: 45%;
+    padding: 8px 10px;
+    margin: 8px 5px 0px 15px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.Addname select:focus {
+    border: 2px solid green;
+    outline-width: 0;
+}
+
+.box form button {
+    width: 94%;
+    padding: 8px 10px;
+    margin: 15px 5px 0px 15px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: green;
+    color: white;
+}
+.check {
+    width: 100%;
+    /* border: solid; */
+}
+.checkbox {
+    width : 500px;
+    /* border: solid; */
+    margin:auto;
+    /* margin-top: 5%; */
+}
+.checkbox h4 {
+    margin: 25px 5px 15px 15px;
+    color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.checkbox input {
+    display: inline-block;
+    /* width: 15px;
+    height: 15px; */
+    margin-left: 3rem;
+    /* margin-right: 1rem; */
+    /* margin: 20px 35px 20px 25px; */
+}
+.checkbox label {
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+}

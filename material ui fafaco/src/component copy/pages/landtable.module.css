@@ -1,0 +1,61 @@
+.land {
+    width: 100%;
+    /* margin-top: -25%; */
+    font-family: 'Times New Roman', Times, serif;
+}
+.container {
+    margin: auto;
+    width: 100%;
+}
+.land table {
+    border: 1px solid green;
+    margin-bottom: 0rem;
+    width: 20rem;
+    border-collapse: collapse;
+   
+    border-color: green;
+    /* border-color: green; */
+  }
+ .land  button {
+    background-color:green;
+    border: none;
+    border-radius: 3px;
+   margin-left:29rem;
+    width: 6rem;
+    height: 2rem;
+    color: white;
+    font-weight: 700;
+    font-size: medium; 
+   
+}
+/* .land thead {
+    background-color: #e3e3e3;
+} */
+.land tr:nth-child(odd){
+    background-color:#f9f9f9;
+    }
+.land tr:hover {
+    background-color:rgb(204, 252, 204);
+    }
+.land tr {
+    text-align: center;
+    height: 2px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-color: green;
+    }
+.land th {
+    background-color: green;
+    color: white;
+    text-align: center;
+    border-color: white;
+ }
+ .land h1{
+    text-align: center;
+    color: green;
+    /* margin-top: 1rem; */
+    margin-bottom: 0rem;
+    /* font-size: 20px; */
+}

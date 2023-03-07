@@ -1,0 +1,24 @@
+.staff{
+    width: 75%;
+    margin: auto;
+    border: solid;
+    
+}
+.staff h1{
+    
+    width: 25%;
+    margin-left: 40%;
+    /* margin-top: 80px; */
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+}
+.staff-login{
+    width: 100%;
+    /* border: solid; */
+    margin: auto;
+    /* margin-top: -110px; */
+}
+.staff-login span{
+    margin-left: 24%;
+    font-family: 'Times New Roman', Times, serif;
+} 

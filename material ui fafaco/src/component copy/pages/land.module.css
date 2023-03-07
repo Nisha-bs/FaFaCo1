@@ -1,0 +1,74 @@
+.login {
+  width: 100%;
+  /* margin-top: -65%; */
+}
+.login form {
+  width: 500px;
+  margin: auto;
+  font-family: "Times New Roman", Times, serif;
+  /* margin-top:15%; */
+}
+.login input,
+select {
+  /* width: 40%;
+    padding: 8px 10px;
+    margin: 8px 5px 0px 15px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif; */
+
+  /* width: 100%;
+  padding: 8px 10px;
+  margin: 8px 0;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; */
+}
+/* .login input[type="text"]:focus,
+input[type="number"]:focus,
+select[type="text"]:focus {
+  border: 2px solid green;
+  outline-width: 0px;
+} */
+
+.login select[type="text"]:focus {
+  border: 2px solid green;
+  outline-width: 0px;
+}
+.login input[type="number"]:focus {
+  border: 2px solid green;
+  outline-width: 0px;
+}
+/* .states input{
+    border-color: black;
+    width: 5rem;
+} */
+.login button {
+  width: 60%;
+  /* padding: 8px 10px; */
+  margin-left: 15rem;
+  /* margin: auto; */
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  background-color: green;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+.login h1 {
+  text-align: center;
+  color: green;
+  /* font-size: 20px; */
+}
+.login label {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.loading {
+  text-align: center;
+  color: white;
+}
